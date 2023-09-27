@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <form>
+        <label for="firstNumber">1st Number:</label><br>
+        <input type="text" id="firstNumber" name="firstNumber" value="0"><br><br>
+
+        <label for="secondNumber">2nd Number:</label><br>
+        <input type="text" id="secondNumber" name="secondNumber" value="0"><br><br>
+
+        <button type="button" onclick="multiply()">Multiply</button>
+        <button type="button" onclick="divide()">Divide</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <div id="divResult" style="visibility: hidden;">
+        <p>The result is:</p>
+        <p id="txtResult"></p>
+    </div>
+</body>
+</html>
