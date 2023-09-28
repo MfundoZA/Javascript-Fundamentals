@@ -8,9 +8,11 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <form >
-        <input type="text" name="text" id="txtCopy" placeholder="Enter text to copy">
-        <input type="button" value="Copy" name="submit" onclick="copyToClipboard()">
+    <form class="parent">
+        <div>
+            <input type="text" name="text" id="txtCopy" placeholder="Enter text to copy">
+            <input type="button" value="Copy" name="submit" onclick="copyToClipboard()">
+        </div>
     </form>
 
     <div id="snackbar">Copied to clipboard!</div>
